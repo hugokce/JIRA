@@ -9,7 +9,7 @@ Projeler project tablosunda yer almaktadır.
 select * from jiraschema.project
 
 Taskların tipleri jiratype tablosundan incelenebilir
-select * from jiraschema.jiratype
+select * from jiraschema.issuetype
 
 
 
