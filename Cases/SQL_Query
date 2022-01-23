@@ -1,1 +1,15 @@
+Jira üzerinde SQL sorguları ile dataları almak istersek belli başlı kullanılan ve ana datanın saklandığı tablolar bulunmaktadır. 
+Tabloların birbirleri ile ilişkilerini incelemek için ekte yer alan pdf (jira-7-9-2-database-schema) incelenebilir.
+
+jiraschema dediğim kısım şema olduğu için tabloların bulunduğu databasedeki ilgili şemanın yazılması gerekmektedir
+Taskların detayları jiraissue tablosunda yer almaktadır.
+select * from jiraschema.jiraissue 
+
+Projeler project tablosunda yer almaktadır.
+select * from jiraschema.project
+
+Taskların tipleri jiratype tablosundan incelenebilir
+select * from jiraschema.jiratype
+
+
 
